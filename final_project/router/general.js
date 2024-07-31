@@ -106,7 +106,7 @@ public_users.get("/isbn/:isbn", async (req, res) => {
 //       .json({ message: `Book with author ${author} is not found.` });
 //   }
 // });
-// Task 11
+// Task 12
 public_users.get("/author/:author", async (req, res) => {
   const author = req.params.author;
 
@@ -158,7 +158,7 @@ public_users.get("/author/:author", async (req, res) => {
 //       .json({ message: `Book with title ${title} is not found.` });
 //   }
 // });
-// Task 12
+// Task 13
 public_users.get("/title/:title", async (req, res) => {
   const title = req.params.title;
 
